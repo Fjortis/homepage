@@ -188,5 +188,21 @@
         </div>
       </div>
     </main>
+    <img
+      id="hiddenImage"
+      src="assets/tinfoilhat.jpg"
+      alt="Easter Egg"
+      style="display: none"
+    />
+    <script>
+      let clickCount = 0;
+
+      document.body.addEventListener("click", () => {
+        clickCount++;
+        if (clickCount === 5) {
+          document.getElementById("hiddenImage").style.display = "block";
+        }
+      });
+    </script>
   </body>
 </html>

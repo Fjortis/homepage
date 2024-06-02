@@ -267,3 +267,14 @@ body {
 .additional-info__languages-item {
   color: var(--secondary-text-color);
 }
+
+#hiddenImage {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 200px;
+  height: auto;
+  border: 3px solid #ff9a00;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000; /* Ensure it appears on top of other elements */
+}
