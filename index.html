@@ -1,130 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Résumé</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
-  <script>
-    function toggleDarkMode() {
-      document.body.classList.toggle('dark-mode');
-    }
-  </script>
-</head>
-<body>
-  <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
-  <main>
-    <div class="resume">
-      <div class="container">
-        <div class="resume__block">
-          <h1 class="contact-info__header">Joel Strid</h1>
-          <h3 class="contact-info__sub-header">Aspiring Full-Stack Developer</h3>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Résumé</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="resume">
+        <div class="container">
+          <div class="resume__block">
+            <h1 class="contact-info__header">Joel Strid</h1>
+            <h3 class="contact-info__sub-header">
+              Aspiring Full-Stack Developer
+            </h3>
 
-          <div class="contact_info_container fh">
-            <div class="contact-info__block">
-              <div class="contact-info__item">
-                <i class="fas fa-envelope contact-info__item-icon"></i>
-                <a href="mailto:Joelstridgg@gmail.com">Joelstridgg@gmail.com</a>
+            <div class="contact_info_container fh">
+              <div class="contact-info__block">
+                <div class="contact-info__item">
+                  <i class="fas fa-envelope contact-info__item-icon"></i>
+                  <a href="mailto:Joelstridgg@gmail.com"
+                    >Joelstridgg@gmail.com</a
+                  >
+                </div>
+                <div class="contact-info__item">
+                  <i class="fas fa-phone contact-info__item-icon"></i>
+                  +46 730 533 694
+                </div>
+                <div class="contact-info__item">
+                  <i class="fas fa-map-marker-alt contact-info__item-icon"></i>
+                  Montboyer, France.
+                </div>
               </div>
-              <div class="contact-info__item">
-                <i class="fas fa-phone contact-info__item-icon"></i>
-                +46 730 533 694
-              </div>
-              <div class="contact-info__item">
-                <i class="fas fa-map-marker-alt contact-info__item-icon"></i>
-                Montboyer, France.
-              </div>
-            </div>
 
-            <div class="contact-info__block contact-info__block--center">
-              <img class="contact-info__avatar" src="assets/382081213_6857094884350133_5074290087058569995_n.jpg" alt="Avatar">
-            </div>
-
-            <div class="contact-info__block">
-              <div class="contact-info__item">
-                <i class="fab fa-linkedin contact-info__item-icon"></i>
-                <a href="linkedin.com/in/joel-strid-030210274">LinkedIn</a>
+              <div class="contact-info__block contact-info__block--center">
+                <img
+                  class="contact-info__avatar"
+                  src="assets/382081213_6857094884350133_5074290087058569995_n.jpg"
+                  alt="Avatar"
+                />
               </div>
-              <div class="contact-info__item">
-                <i class="fab fa-github contact-info__item-icon"></i>
-                <a href="https://github.com/Fjortis">GitHub</a>
+
+              <div class="contact-info__block">
+                <div class="contact-info__item">
+                  <i class="fab fa-linkedin contact-info__item-icon"></i>
+                  <a href="linkedin.com/in/joel-strid-030210274">linkedin</a>
+                </div>
+                <div class="contact-info__item">
+                  <i class="fab fa-github contact-info__item-icon"></i>
+                  <a href="https://github.com/Fjortis">Github</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-
-        <div class="resume__block">
-          <div class="intro">
-            <div class="intro__icon-wrapper">
-              <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                <path d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"></path>
-              </svg>
-            </div>
-            <p class="intro_text">Hello! I'm Joel, a passionate Full-Stack Developer with a unique background. I started my career as a chef, where I honed my skills in precision and creativity. Recently, I transitioned to IT, and I'm dedicated to leveraging my diverse experience to create innovative solutions in the tech industry.</p>
-          </div>
-        </div>
-
-        <div class="resume__block">
-          <div class="skills">
-            <h3 class="skills__header">Skills</h3>
-            <p class="skills__text">Problem solving, Eager and fast learner, Team player</p>
-          </div>
-        </div>
-
-        <div class="resume__block">
-          <div class="main-info fh">
-            <div class="experiences">
-              <h3 class="experiences__header">Experience</h3>
-              <div class="experiences__company">
-                <div class="experiences__company-header">
-                  <span class="experiences__company-header-durability">2022 - 2023</span>
-                  <h3 class="experiences__company-header-name">Infosys BPM Ireland</h3>
+          <div class="container">
+            <div class="resume__block">
+              <div class="intro">
+                <div class="intro__icon-wrapper">
+                  <svg
+                    class="intro__icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7
+                    24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0
+                    26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                    48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64
+                    64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0
+                    103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0
+                    48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                    ></path>
+                  </svg>
                 </div>
-                <div class="experiences__company-project">
-                  <span class="experiences__company-project-role">Senior Process Executive</span>
-                  <h3 class="experiences__company-project-name">Infosys BPM EON SE Account</h3>
-                  <ul class="experiences__company-project-responsibilities">
-                    <li>Technological Integration</li>
-                    <li>Project Coordination</li>
-                    <li>Quality Assurance</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="experiences__company">
-                <div class="experiences__company-header">
-                  <span class="experiences__company-header-durability">2023 - present</span>
-                  <h3 class="experiences__company-header-name">Schebet School</h3>
-                </div>
-                <div class="experiences__company-project">
-                  <span class="experiences__company-project-role">Technical Specialist</span>
-                  <h3 class="experiences__company-project-name">Automated Student Management System</h3>
-                  <ul class="experiences__company-project-responsibilities">
-                    <li>API Integration</li>
-                    <li>Data Management</li>
-                    <li>Bot Maintenance</li>
-                  </ul>
-                </div>
+                <p class="intro_text">
+                  Hello! I'm Joel, a passionate Full-Stack Developer with a
+                  unique background. I started my career as a chef, where I
+                  honed my skills in precision and creativity. Recently, I
+                  transitioned to IT, and I'm dedicated to leveraging my diverse
+                  experience to create innovative solutions in the tech
+                  industry.
+                </p>
               </div>
             </div>
-
-            <div class="additional-info fv">
-              <div class="additional-info__education">
-                <h3 class="additional-info__education-header">Education</h3>
-                <div class="additional-info__education-university">
-                  <span class="additional-info__education-university-durability">2024 - present</span>
-                  <h3 class="additional-info__education-university-speciality">Full-Stack Development</h3>
-                  <p class="additional-info__education-university-name">Binary Studio Academy</p>
-                </div>
+          </div>
+          <div class="container">
+            <div class="resume__block">
+              <div class="skills">
+                <h3 class="skills__header">Skills</h3>
+                <p class="skills__text">
+                  Problem solving, Eager and fast learner, Team player
+                </p>
               </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="resume__block">
+              <div class="main-info fh">
+                <div class="experiences">
+                  <h3 class="experiences__header">Experience</h3>
+                  <div class="experiences__company">
+                    <div class="experiences__company-header">
+                      <span class="experiences__company-header-durability"
+                        >2022 - 2023</span
+                      >
+                      <h3 class="experiences__company-header-name">
+                        Infosys BPM Ireland
+                      </h3>
+                    </div>
 
-              <div class="additional-info__languages">
-                <h3 class="additional-info__languages-header">Languages</h3>
-                <p class="additional-info__languages-item">English</p>
-                <p class="additional-info__languages-item">German</p>
-                <p class="additional-info__languages-item">Swedish</p>
-                <p class="additional-info__languages-item">Ukrainian</p>
+                    <div class="experiences__company-project">
+                      <span class="experiences__company-project-role"
+                        >Senior Process Executive</span
+                      >
+                      <h3 class="experiences__company-project-name">
+                        Infosys BPM EON SE Account
+                      </h3>
+                      <ul class="experiences__company-project-responsibilities">
+                        <li>Technological Integration</li>
+                        <li>Project Coordination</li>
+                        <li>Quality Assurance</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="experiences__company">
+                    <div class="experiences__company-header">
+                      <span class="experiences__company-header-durability"
+                        >2023 - present</span
+                      >
+                      <h3 class="experiences__company-header-name">
+                        Schebet school
+                      </h3>
+                    </div>
+
+                    <div class="experiences__company-project">
+                      <span class="experiences__company-project-role"
+                        >Technical specalist</span
+                      >
+                      <h3 class="experiences__company-project-name">
+                        Automated Student Management System
+                      </h3>
+                      <ul class="experiences__company-project-responsibilities">
+                        <li>API Integration</li>
+                        <li>Data Management</li>
+                        <li>Bot Maintenance</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="additional-info fv">
+                  <div class="additional-info__education">
+                    <h3 class="additional-info__education-header">Education</h3>
+                    <div class="additional-info__education-university">
+                      <span
+                        class="additional-info__education-university-durability"
+                      >
+                        2024 - present
+                      </span>
+                      <h3
+                        class="additional-info__education-university-speciality"
+                      >
+                        Full-Stack Development
+                      </h3>
+                      <p class="additional-info__education-university-name">
+                        Binary Studio Academy
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="additional-info__languages">
+                    <h3 class="additional-info__languages-header">Languages</h3>
+                    <p class="additional-info__languages-item">English</p>
+                    <p class="additional-info__languages-item">German</p>
+                    <p class="additional-info__languages-item">Swedish</p>
+                    <p class="additional-info__languages-item">Ukrainian</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
