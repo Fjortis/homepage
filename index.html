@@ -193,11 +193,18 @@
       <img id="hiddenImage" src="assets/tinfoilhat.jpg" alt="Easter Egg" />
     </div>
     <script>
-      let clickCount = 0;
-      document.body.addEventListener("click", () => {
-        clickCount++;
-        if (clickCount === 5) {
-          document.getElementById("hiddenContent").style.display = "block";
+      const konamiCode = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
+      let konamiIndex = 0;
+
+      document.addEventListener("keydown", (e) => {
+        if (e.keyCode === konamiCode[konamiIndex]) {
+          konamiIndex++;
+          if (konamiIndex === konamiCode.length) {
+            document.getElementById("hiddenContent").style.display = "block";
+            konamiIndex = 0;
+          }
+        } else {
+          konamiIndex = 0;
         }
       });
     </script>
