@@ -188,19 +188,16 @@
         </div>
       </div>
     </main>
-    <img
-      id="hiddenImage"
-      src="assets/tinfoilhat.jpg"
-      alt="Easter Egg"
-      style="display: none"
-    />
+    <div id="hiddenContent" style="display: none">
+      <p id="hiddenText">Am i the only easter egg??</p>
+      <img id="hiddenImage" src="assets/tinfoilhat.jpg" alt="Easter Egg" />
+    </div>
     <script>
       let clickCount = 0;
-
       document.body.addEventListener("click", () => {
         clickCount++;
         if (clickCount === 5) {
-          document.getElementById("hiddenImage").style.display = "block";
+          document.getElementById("hiddenContent").style.display = "block";
         }
       });
     </script>

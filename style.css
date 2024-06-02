@@ -268,13 +268,19 @@ body {
   color: var(--secondary-text-color);
 }
 
-#hiddenImage {
+#hiddenContent {
   position: fixed;
   bottom: 10px;
   right: 10px;
-  width: 200px;
-  height: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
   border: 3px solid #ff9a00;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   z-index: 1000; /* Ensure it appears on top of other elements */
+  text-align: center;
+}
+
+#hiddenImage {
+  width: 200px;
+  height: auto;
 }
