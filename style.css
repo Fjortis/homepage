@@ -38,7 +38,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center; /* Ensure alignment */
+  align-items: flex-start; /* Ensure alignment */
 }
 
 .fv {
