@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
 
   --primary-text-color: #181820;
@@ -14,7 +14,6 @@ body {
   --icon-color: #6a737d;
   --border-color: #ff9a0045;
   --text-decoration-color: #ff9a00;
-  --hover-color: #ff9a00;
 }
 
 .container {
@@ -102,11 +101,6 @@ body {
   text-decoration: none;
   display: flex;
   justify-content: start;
-  transition: color 0.3s;
-}
-
-.contact-info__item:hover {
-  color: var(--hover-color);
 }
 
 .contact-info__item:not(:last-child) {
@@ -122,11 +116,6 @@ body {
 
 .contact-info__item-icon path {
   fill: var(--icon-color);
-  transition: fill 0.3s;
-}
-
-.contact-info__item:hover .contact-info__item-icon path {
-  fill: var(--hover-color);
 }
 
 .contact-info__item-icon {
