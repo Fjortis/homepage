@@ -161,22 +161,6 @@ body {
   text-align: justify;
 }
 
-.skills {
-  text-align: center;
-}
-
-.skills__list {
-  list-style-type: none;
-  padding: 0;
-  display: inline-block;
-  text-align: left;
-}
-
-.skills__list-item {
-  margin-bottom: 5px;
-  color: var(--secondary-text-color);
-}
-
 .skills__header {
   color: var(--secondary-text-color);
   text-align: center;
