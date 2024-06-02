@@ -276,7 +276,7 @@ body {
   padding: 20px;
   border: 3px solid #ff9a00;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  z-index: 1000; /* Ensure it appears on top of other elements */
+  z-index: 1000;
   text-align: center;
 }
 
